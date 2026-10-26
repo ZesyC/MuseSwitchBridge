@@ -1,0 +1,33 @@
+# Private browser sessions and local configuration
+/storage_state.json
+/.muse_accounts/
+/.session-*.tmp
+/bridge_config.json
+/claude_request_sample.json
+*.session.json
+*.cookie*
+*.token*
+
+.env
+.env.*
+!.env.example
+
+# Browser diagnostics and local experiments
+/debug_*
+/scratch/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Editor and OS files
+.claude/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
